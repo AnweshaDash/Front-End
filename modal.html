@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+
+</head>
+<body>
+
+<div id="index" class="modal">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <img class="img-logo"  src="logo.jpg" alt="logo" style="position:absolute;left:100px;top:90px;">
+   <div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-75">
+        <input type="text" id="lname" name="Email" placeholder="Email">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-75">
+        <input type="text" id="Mobile" name="Mobile" placeholder="Mobile">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-75">
+      <input type="text" id="company" name="Company" placeholder="Company">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-75">
+      <input type="text" id="foe" name="foe" placeholder="Field of Experience">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-75">
+      <input type="text" id="query" name="query" placeholder="Query">
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+<div class="container1">
+<form action="action_page.php">
+    <div class="col-80">
+    <input type="text" name="feeds">
+    <div class="row">
+      <input type="submit" class="idsub"  value="Sign up for news feed">
+    </div>
+  </form>
+</div>
+
+  <!--  <form class="info" action="/action_page.php" style="position:absolute;
+      top:50px;
+      left: 1200px;">
+      <br>
+      Please Fill this form
+      <br>
+      <input type="text" name="firstname" placeholder="   Name  "><br>
+      <br>
+      <input type="text" name="email" placeholder="         Email    "><br>
+      <br>
+      <input type="text" name="number" placeholder="    Mobile   "><br>
+      <br>
+      <input type="text" name="company" placeholder="     Company   "><br>
+      <br>
+      <input type="text" name="foe" placeholder="      Field of Experience    "><br>
+      <br>
+      <input type="text" name="query" placeholder="   Your Query   "><br>
+
+      <input type="button", input type="submit" value ="Submit"  style="
+        background-color: rgb(91, 92, 94);
+        border: 3px solid #555;
+          padding: 5px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    ">
+
+  </form>!-->
+  <!--    <input type="text" name="feeds" style="position:absolute;
+      left:1200px;
+      top: 670px"><br>
+        <input type="button", input type="submit" value ="Sign up for News letter" style="position: absolute;
+        top: 700px;left:1200px;">!-->
+    </form></section>
+  </div>
+</div>
+<div class="topnav1">
+  <input type="text" class="nav1" placeholder="Search..">
+  <a href="#home">CAREERS</a>
+  <a href="#about">BLOG</a>
+  <a href="#contact" onclick="openNav()">Contact Us</a>
+
+</div>
+<div class="topnav2" style="position:relative;
+top:50px;
+left: -170px;
+color: rgb(0,0,0);
+font-size:80px;
+">
+
+  <a href="#home">Why Green</a>
+  <a href="#about">Who We Are</a>
+  <a href="#contact">What We Do</a>
+
+</div>
+<img class="env" src="env.jpg" style="position:absolute; top:50px; left:200px;">
+
+<img class="img-tree" src="tree.jpg" alt="tree"usemap="#menu1" usemap="#menu2" usemap="#menu2"usemap="#menu3"usemap="#menu4"usemap="#menu5" usemap="#menu6">
+<map name="menu1" title="Enery conservation">
+  <area shape="rect" coords="482,90,673,113">
+  <map name="menu2" title="Indoor Air Quality">
+    <area shape="rect" coords="487,276,670,299">
+    <map name="menu3" title="Efficient Landscape">
+      <area shape="rect" coords="441,432,636,461">
+      <map name="menu4" title="Water Captivity">
+        <area shape="rect" coords="37,431,230,461">
+        <map name="menu5" title="Waste Management">
+          <area shape="rect" coords="2,275,190,299">
+          <map name="menu6" title="Renewable Energy">
+            <area shape="rect" coords="3,90,189,113">
+
+</map>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("index").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("index").style.height = "0%";
+}
+</script>
+
+</body>
+</html>
